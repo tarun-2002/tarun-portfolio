@@ -1,0 +1,43 @@
+
+.project-wrapper{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 0 15px;
+    height: 100vh;
+    z-index: 100000;
+    text-align: center;
+}
+.title-wrapper2{
+    width: 100vw;
+    text-align: center;
+    margin-top: 30px;
+    
+}
+.card {
+    height: 397px; /* 70% of the original height */
+    width: 261px; /* 70% of the original width */
+    padding: 0 30px 0 30px;
+}
+
+.proj-img {
+    width: 263px; /* 70% of the original width */
+    height: 182px; /* 70% of the original height */
+    background-image: url('https://ik.imagekit.io/mtmwll7w3/tarunPortfolio/projss.png?updatedAt=1704435201907');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-radius: 20px 20px 0 0; /* Updated border-radius */
+}
+
+.proj-details {
+    height: 217px; /* 70% of the original height */
+    width: 261px; /* 70% of the original width */
+    border-radius: 0 0 20px 20px; /* Updated border-radius */
+    background: linear-gradient(270deg, #5B1FAB 0%, #391A62 100%);
+    box-shadow: 2px 2px 100px 0px rgba(0, 0, 0, 0.20);
+}
+.card-wrapper{
+        display: flex;
+        justify-content: space-between; /* Adjust this based on your spacing preferences */
+}
+  

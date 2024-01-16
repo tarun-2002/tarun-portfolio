@@ -1,0 +1,187 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@600&display=swap');
+.lander-wrapper {
+    height: 100vh;
+    width: 100vw;
+    background-color: #0F071A;
+    margin: 0%;
+
+}
+.ellipse-left{
+    margin-left: 0;
+}
+.ellipse-right-top{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.ellipse-right-bottom{
+    position: absolute;
+    right: 0;
+    top: 350px;
+}
+.blur-rect{
+    width: 1440px;
+height: 1024px;
+flex-shrink: 0;
+fill: rgba(1, 1, 1, 0.03);
+backdrop-filter: blur(7px);
+position: absolute;
+top: 0%;
+}
+.print-grid{
+    background-image: url("https://ik.imagekit.io/mtmwll7w3/tarunPortfolio/points.png.png?updatedAt=1703240026105");
+    position: absolute;
+    top:118px;
+}
+.dev-img{
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+.dev-shadow{
+    width: 164px;
+height: 184px;
+fill: radial-gradient(50% 50% at 50% 50%, #763CAC 0%, rgba(50, 15, 133, 0.00) 100%);
+}
+.dev-shadow-2{
+    width: 110.144px;
+height: 110.571px;
+fill: radial-gradient(50% 50% at 50% 50%, #FFF 17.71%, rgba(67, 67, 67, 0.00) 100%);
+margin-top: 5vh;
+position: absolute;
+}
+.dev-img{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 20vh;
+    z-index: 1000;
+    
+}
+.dev{
+    position: absolute;
+    margin-top: 5vh;
+
+}
+
+.oppurtunities-wrapper{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 20vh;
+    z-index: 1000;
+}
+.oppurtunities{
+position: absolute;
+top: 44vh;
+width: 240px;
+height: 41px;
+padding: 9.788px 10px;
+justify-content: center;
+align-items: center;
+flex-shrink: 0;
+background: radial-gradient(70.71% 70.71% at 50% 50%, rgba(218, 65, 120, 0.25) 0%, rgba(218, 65, 120, 0.00) 100%);
+}
+.oppurtunities h1{
+    display: inline;
+    color: rgba(255, 255, 255, 0.80);
+font-family: Manrope;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: 20px; /* 142.857% */
+margin-left: 10px;
+}
+.oppurtunities-svg{
+    display: inline;
+}
+@keyframes blink {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  .oppurtunities-svg {
+    animation: blink 2s infinite; /* Adjust the duration as needed */
+  }
+  .name{
+    position: absolute;
+top: 52vh;
+justify-content: center;
+align-items: center;
+flex-shrink: 0;
+  }
+  .name h1{
+ 
+    color: #F2FFF4;
+    font-family: Poppins;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 62px; /* 137.778% */
+  }
+  .developer{
+    position: absolute;
+top: 62vh;
+justify-content: center;
+align-items: center;
+flex-shrink: 0;
+  }
+  .developer h1{
+ 
+    color: #F2FFF4;
+    font-family: Poppins;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 62px; /* 110.714% */
+  }
+
+  .lander-head{
+    position: absolute;
+top: 72vh;
+justify-content: center;
+align-items: center;
+flex-shrink: 0;
+  }
+  .lander-head h1{
+ 
+    color: #CFBDE8;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 25px; /* 125% */
+  }
+
+  .connect-button{
+    position: absolute;
+    top: 80vh;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+padding: 8px 16px;
+justify-content: center;
+align-items: center;
+gap: 6px;
+border-radius: 6px;
+background: #4E159A;
+box-shadow: 0px 1px 2px 0px rgba(105, 81, 255, 0.05);
+    color: #F0FDF4;
+
+/* text-sm/Medium */
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 20px; /* 142.857% */
+  }
+
