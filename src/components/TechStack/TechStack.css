@@ -1,0 +1,20 @@
+.tech-stack-wrapper {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 0 15px;
+    height: 100%;
+    z-index: 100000;
+    text-align: center;
+    width: 100%;
+}
+
+.tech-wrapper img {
+    height: 800px;
+}
+
+.tech-wrapper {
+
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}

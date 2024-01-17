@@ -1,43 +1,60 @@
-
-.project-wrapper{
+.project-wrapper {
     margin-top: 50px;
     margin-bottom: 50px;
     padding: 0 15px;
-    height: 100vh;
+    height: 100%;
     z-index: 100000;
     text-align: center;
+    width: 100%;
 }
-.title-wrapper2{
-    width: 100vw;
+
+.title-wrapper2 {
+
     text-align: center;
     margin-top: 30px;
-    
+    width: 100%;
+
 }
+
 .card {
-    height: 397px; /* 70% of the original height */
-    width: 261px; /* 70% of the original width */
-    padding: 0 30px 0 30px;
+    height: 436.7px;
+    /* 397px + 10% */
+    width: 287.1px;
+    /* 261px + 10% */
+    padding: 0 33px 0 33px;
+    /* 30px + 10% */
 }
 
 .proj-img {
-    width: 263px; /* 70% of the original width */
-    height: 182px; /* 70% of the original height */
+    width: 289.3px;
+    /* 263px + 10% */
+    height: 200.2px;
+    /* 182px + 10% */
+    border-radius: 22px 22px 0 0;
+    /* 20px + 10% */
     background-image: url('https://ik.imagekit.io/mtmwll7w3/tarunPortfolio/projss.png?updatedAt=1704435201907');
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    border-radius: 20px 20px 0 0; /* Updated border-radius */
+    /* Updated border-radius */
 }
 
 .proj-details {
-    height: 217px; /* 70% of the original height */
-    width: 261px; /* 70% of the original width */
-    border-radius: 0 0 20px 20px; /* Updated border-radius */
+    height: 238.7px;
+    /* 217px + 10% */
+    width: 287.1px;
+    /* 261px + 10% */
+    border-radius: 0 0 22px 22px;
+    /* 20px + 10% */
+    /* Updated border-radius */
     background: linear-gradient(270deg, #5B1FAB 0%, #391A62 100%);
     box-shadow: 2px 2px 100px 0px rgba(0, 0, 0, 0.20);
 }
-.card-wrapper{
-        display: flex;
-        justify-content: space-between; /* Adjust this based on your spacing preferences */
+
+.card-wrapper {
+    display: flex;
+    /* Adjust this based on your spacing preferences */
+    padding: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
-  

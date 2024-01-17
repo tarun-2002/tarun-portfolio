@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Cabin:wght@700&display=swap');
+
 .experience-wrapper {
     margin-top: 50px;
     margin-bottom: 50px;
@@ -6,83 +7,88 @@
     height: 100vh;
     z-index: 100000;
     text-align: center;
+    width: 100%;
+}
 
+.experience {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+    flex-wrap: wrap;
 }
-.experience{
-width: 100%;
-display: flex;
-justify-content: center;
-margin-top: 70px;
-flex-wrap: wrap;
-}
-.title-wrapper{
-    width: 100vw;
+
+.title-wrapper {
     text-align: center;
     margin-top: 300px;
+    width: 100%;
 }
-.title{
+
+.title {
     font-family: Cabin;
-font-size: 56px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-letter-spacing: 2px;
-background: linear-gradient(98deg, #F5B03E 0%, #F53EC2 100%);
-background-clip: text;
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2px;
+    background: linear-gradient(98deg, #F5B03E 0%, #F53EC2 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
+
 .experience-item {
     background-image: url("https://ik.imagekit.io/mtmwll7w3/tarunPortfolio/Mask%20group.png?updatedAt=1703654701550");
     background-size: cover;
     background-repeat: no-repeat;
     width: 1109px;
-height: 147.089px;
-flex-shrink: 0;
-margin-top:-5px;
-text-align: left;
-padding: 25px;
+    height: 147.089px;
+    flex-shrink: 0;
+    margin-top: -5px;
+    text-align: left;
+    padding: 25px;
 }
 
-.experience-block{
+.experience-block {
     width: 1109px;
     height: 169px;
     flex-shrink: 0;
     border-radius: 15px;
-background: linear-gradient(110deg, #130428 19.95%, #251043 67.64%, #38126D 107.08%, #261045 156.61%, #190634 183.21%);
-box-shadow: 4px 7px 26px 0px rgba(0, 0, 0, 0.12);
+    background: linear-gradient(110deg, #130428 19.95%, #251043 67.64%, #38126D 107.08%, #261045 156.61%, #190634 183.21%);
+    box-shadow: 4px 7px 26px 0px rgba(0, 0, 0, 0.12);
 }
 
- .expi-info{
+.expi-info {
     color: var(--Primary-Color, #FFF);
-font-family: Poppins;
-font-size: 14.494px;
-font-style: normal;
-font-weight: 400;
-line-height: 150%; /* 21.74px */
- }
+    font-family: Poppins;
+    font-size: 14.494px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 21.74px */
+}
 
- .expi-title{
+.expi-title {
     text-align: center;
-font-family: Poppins;
-font-size: 21.74px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-background: linear-gradient(180deg, #BD00FF 0%, #FFF 100%);
-background-clip: text;
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
- }
+    font-family: Poppins;
+    font-size: 21.74px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    background: linear-gradient(180deg, #BD00FF 0%, #FFF 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 
- .expi-dur{
+.expi-dur {
     color: var(--Light-Grey, #8491A0);
-text-align: center;
-font-family: Poppins;
-font-size: 14.494px;
-font-style: normal;
-font-weight: 400;
-line-height: 150%; /* 21.74px */
-margin-left: 580px;
- }
-  
+    text-align: center;
+    font-family: Poppins;
+    font-size: 14.494px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 21.74px */
+    margin-left: 580px;
+}
