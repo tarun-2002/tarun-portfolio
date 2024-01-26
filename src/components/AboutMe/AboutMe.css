@@ -1,0 +1,199 @@
+.aboutMe-wrapper {
+    text-align: center;
+    width: 100%;
+}
+
+.about-tarun {
+    height: 664px;
+    width: 100%;
+    text-align: center;
+    margin-top: -50px;
+}
+
+.shadow-wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    padding-right: 60px;
+
+}
+
+.about-shadow {
+    height: 664px;
+
+}
+
+.tarun-img-bg {
+    width: 530.532px;
+    height: 310.376px;
+    position: absolute;
+    background-color: #2B0B3A;
+    margin-top: 175px;
+    margin-right: 100px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.tarun-img {
+    margin-left: 25px;
+    margin-top: 25px;
+    border-radius: 15px;
+}
+
+.about-first-heading {
+    text-align: left;
+}
+
+.about-first-heading h4 {
+    color: #9857D3;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.24px;
+}
+
+.about-first-heading h1 {
+    color: #CCD6F6;
+    font-family: Poppins;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.6px;
+}
+
+.about-tarun-text {
+    border-radius: 14px;
+    background: radial-gradient(151.92% 127.02% at 15.32% 21.04%, rgba(105, 59, 147, 0.20) 0%, rgba(110, 191, 244, 0.04) 77.08%, rgba(70, 144, 212, 0.00) 100%);
+    text-align: left;
+    padding: 20px 110px 20px 20px;
+    background-blend-mode: overlay, normal;
+    backdrop-filter: blur(40px);
+    width: 608.92px;
+    height: 150.182px;
+    flex-shrink: 0;
+    position: absolute;
+}
+
+
+.about-tarun-wrapper {
+    position: absolute;
+    margin-top: 200px;
+    left: 240px;
+}
+
+.about-tarun-text p {
+    color: #CCD6F6;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+
+
+
+
+
+.aboutMe-wrapper {
+    text-align: center;
+    width: 100%;
+}
+
+.about-photography {
+    height: 664px;
+    width: 100%;
+    text-align: center;
+    margin-top: -150px;
+}
+
+.shadow-photography-wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: start;
+    padding-left: 60px;
+
+}
+
+.about-photography-shadow {
+    height: 664px;
+
+}
+
+.photography-img-bg {
+    width: 530.532px;
+    height: 310.376px;
+    position: absolute;
+    background-color: #2B0B3A;
+    margin-top: 175px;
+    margin-left: 100px;
+    border-radius: 15px;
+    overflow: hidden;
+    padding-right: 25px;
+}
+
+.photography-img {
+    margin-top: 25px;
+    margin-right: 25px;
+    border-radius: 15px;
+}
+
+.about-photography-heading {
+    width: 608.92px;
+    text-align: right;
+
+}
+
+.about-photography-heading h4 {
+    color: #9857D3;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.24px;
+}
+
+.about-photography-heading h1 {
+    color: #CCD6F6;
+    font-family: Poppins;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.6px;
+}
+
+.about-photography-text {
+    border-radius: 14px;
+    background: radial-gradient(151.92% 127.02% at 15.32% 21.04%, rgba(118, 60, 172, 0.20) 0%, rgba(110, 191, 244, 0.04) 77.08%, rgba(70, 144, 212, 0.00) 100%);
+    text-align: left;
+    padding: 20px 110px 20px 20px;
+    background-blend-mode: overlay, normal;
+    backdrop-filter: blur(40px);
+    width: 608.92px;
+    height: 150.182px;
+    flex-shrink: 0;
+    position: absolute;
+}
+
+
+.about-photography-wrapper {
+    position: absolute;
+    margin-top: 200px;
+    right: 240px;
+}
+
+.about-photography-text p {
+    color: #CCD6F6;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
