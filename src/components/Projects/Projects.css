@@ -23,6 +23,7 @@
     /* 261px + 10% */
     padding: 0 33px 0 33px;
     /* 30px + 10% */
+    margin-right: 32px;
 }
 
 .proj-img {
@@ -57,4 +58,5 @@
     padding: 20px;
     margin-top: 50px;
     margin-bottom: 50px;
+ 
 }

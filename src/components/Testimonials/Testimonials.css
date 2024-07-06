@@ -1,0 +1,14 @@
+/* WallofLove.css or your custom CSS file */
+.slider-container {
+    position: relative;
+    width: 100%;
+  }
+  
+  .overlap-image {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1000000; /* Ensure the image is on top */
+
+  }

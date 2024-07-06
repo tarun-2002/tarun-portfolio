@@ -15,6 +15,14 @@ const Projects = () => {
           <div className="proj-img"></div>
           <div className="proj-details">sdf</div>
         </div>
+        <div className="card">
+          <div className="proj-img"></div>
+          <div className="proj-details">sdf</div>
+        </div>
+        <div className="card">
+          <div className="proj-img"></div>
+          <div className="proj-details">sdf</div>
+        </div>
       </div>
     </div>
   );

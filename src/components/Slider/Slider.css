@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+
+.test-wrapper {
+    width: 507px;
+    height: 434px;
+    display: block;
+    border-radius: 8px;
+    border: 0.5px solid #504E61;
+    background: linear-gradient(180deg, #270C50 0%, rgba(51, 27, 87, 0.91) 100%);
+    padding: 24px 28px;
+    text-align: center;
+    justify-content: center;
+}
+
+.test-img-wrapper {
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 21px;
+}
+
+.mySwiper1 {
+    margin-top: 10vh;
+    margin-left: -80px;
+}
+
+.userImg {
+    width: 69px;
+    height: 69px;
+    flex-shrink: 0;
+    border-radius: 22px;
+    margin-top: 0vh;
+    margin-left: 2vh;
+}
+
+.user-wrapper {
+    display: inline-block;
+    padding-bottom: 1vh;
+}
+
+.user-wrapper h1 {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    /* 150% */
+    margin-left: 1vw;
+    margin-bottom: 4px;
+}
+
+.user-wrapper p {
+    color: #9E9E9E;
+    text-align: center;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    /* 142.857% */
+    margin-left: 1vw;
+    margin-top: 0px;
+    margin-bottom: 1vh;
+}
+
+.review-wrapper p {
+    color: #EEE;
+    text-align: center;
+    font-family: Inter;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    /* 145.455% */
+    /* 150% */
+    margin-left: 0vw;
+}
+
+.review-wrapper {
+    margin-left: 1vw;
+}
+
+.linkdin-wrapper {
+    margin-top: 41px;
+    width: 120px;
+    height: 41px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    background: rgba(22, 22, 22, 0.20);
+    padding: 10px 12px;
+}
+
+.txt-wrapper-linkedin {
+    margin-left: 6px;
+    display: inline;
+    color: #757575;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    /* 171.429% */
+}
