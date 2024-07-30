@@ -42,7 +42,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     width: 1109px;
-    height: 147.089px;
+    height: 100%;
     flex-shrink: 0;
     margin-top: -5px;
     text-align: left;
@@ -51,7 +51,7 @@
 
 .experience-block {
     width: 1109px;
-    height: 169px;
+    height: 100%;
     flex-shrink: 0;
     border-radius: 15px;
     background: linear-gradient(110deg, #130428 19.95%, #251043 67.64%, #38126D 107.08%, #261045 156.61%, #190634 183.21%);
@@ -90,5 +90,5 @@
     font-weight: 400;
     line-height: 150%;
     /* 21.74px */
-    margin-left: 580px;
+    margin-left: 400px;
 }

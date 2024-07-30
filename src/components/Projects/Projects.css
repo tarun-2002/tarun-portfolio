@@ -26,14 +26,92 @@
     margin-right: 32px;
 }
 
-.proj-img {
+.proj-img1 {
     width: 289.3px;
     /* 263px + 10% */
     height: 200.2px;
     /* 182px + 10% */
     border-radius: 22px 22px 0 0;
     /* 20px + 10% */
-    background-image: url('https://ik.imagekit.io/mtmwll7w3/tarunPortfolio/projss.png?updatedAt=1704435201907');
+    background-image: url('https://ik.imagekit.io/mtmwll7w3/tarunPortfolio/Screenshot%202024-07-16%20at%201.53.06%E2%80%AFPM.png?updatedAt=1721118211307');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    /* Updated border-radius */
+}
+.proj-img2 {
+    width: 289.3px;
+    /* 263px + 10% */
+    height: 200.2px;
+    /* 182px + 10% */
+    border-radius: 22px 22px 0 0;
+    /* 20px + 10% */
+    background-image: url('https://ik.imagekit.io/mtmwll7w3/tarunPortfolio/Screenshot%202024-07-16%20at%202.03.29%E2%80%AFPM.png?updatedAt=1721196616068');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    /* Updated border-radius */
+}
+.proj-img3 {
+    width: 289.3px;
+    /* 263px + 10% */
+    height: 200.2px;
+    /* 182px + 10% */
+    border-radius: 22px 22px 0 0;
+    /* 20px + 10% */
+    background-image: url('https://ik.imagekit.io/mtmwll7w3/tarunPortfolio/Nov%2028%20Screenshot%20from%20ImageKit.png?updatedAt=1721118617950');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    /* Updated border-radius */
+}
+.proj-img4 {
+    width: 289.3px;
+    /* 263px + 10% */
+    height: 200.2px;
+    /* 182px + 10% */
+    border-radius: 22px 22px 0 0;
+    /* 20px + 10% */
+    background-image: url('https://ik.imagekit.io/mtmwll7w3/tarunPortfolio/Screenshot%202024-07-16%20at%201.49.10%E2%80%AFPM.png?updatedAt=1721117975398');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    /* Updated border-radius */
+}
+.proj-img5 {
+    width: 289.3px;
+    /* 263px + 10% */
+    height: 200.2px;
+    /* 182px + 10% */
+    border-radius: 22px 22px 0 0;
+    /* 20px + 10% */
+    background-image: url('https://ik.imagekit.io/mtmwll7w3/tarunPortfolio/Screenshot%202024-07-16%20at%2012.39.12%E2%80%AFPM.png?updatedAt=1721117498529');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    /* Updated border-radius */
+}
+.proj-img6 {
+    width: 289.3px;
+    /* 263px + 10% */
+    height: 200.2px;
+    /* 182px + 10% */
+    border-radius: 22px 22px 0 0;
+    /* 20px + 10% */
+    background-image: url('https://ik.imagekit.io/mtmwll7w3/tarunPortfolio/Screenshot%202024-07-16%20at%2012.43.10%E2%80%AFPM.png?updatedAt=1721117495394');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    /* Updated border-radius */
+}
+.proj-img7 {
+    width: 289.3px;
+    /* 263px + 10% */
+    height: 200.2px;
+    /* 182px + 10% */
+    border-radius: 22px 22px 0 0;
+    /* 20px + 10% */
+    background-image: url('https://ik.imagekit.io/mtmwll7w3/tarunPortfolio/Screenshot%202024-07-16%20at%2012.46.01%E2%80%AFPM.png?updatedAt=1721117495401');
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -41,6 +119,7 @@
 }
 
 .proj-details {
+    padding: 27px;
     height: 238.7px;
     /* 217px + 10% */
     width: 287.1px;
@@ -59,4 +138,41 @@
     margin-top: 50px;
     margin-bottom: 50px;
  
+}
+
+.proj-title{
+    color: var(--Solid-Heading-Dark-mode, #CCC);
+    text-align: left;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px; /* 92.857% */
+}
+
+.proj-desc{
+    margin-top: 8px;
+    text-align: left;
+    color: var(--Solid-Heading-Dark-mode, #CCC);
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 300;
+line-height: 20px; /* 144.444% */
+}
+
+.code-block{
+    display: flex;
+    justify-content: space-between;
+}
+
+.code-block-text{
+    margin-top: 21px;
+    color: #FFF;
+font-family: Poppins;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+text-decoration-line: underline;
 }
